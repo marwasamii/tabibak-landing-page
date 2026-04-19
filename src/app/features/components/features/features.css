@@ -1,4 +1,7 @@
-@keyframes grow {
-  from { transform: scaleX(0); }
-  to { transform: scaleX(1); }
-}
+ @keyframes growLine {
+    0% { transform: scaleX(0); opacity: 0; }
+    100% { transform: scaleX(1); opacity: 1; }
+  }
+  .animate-grow-line {
+    animation: growLine 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  }
