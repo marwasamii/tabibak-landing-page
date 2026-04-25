@@ -8,31 +8,28 @@
                         <i class="fas fa-plus text-white text-[8px]"></i>
                     </div>
                     <span class="text-lg font-black text-slate-900 tracking-tighter">
-                        Tabib<span class="text-teal-600 italic">ak</span>
+                        <span>{{ 'NAV.LOGO_PART1' | translate }}</span><span class="text-teal-600 italic">{{ 'NAV.LOGO_PART2' | translate }}</span>
                     </span>
                 </div>
                 <p class="text-[11px] font-medium text-slate-400 tracking-wide uppercase">
-                    Revolutionizing Healthcare Booking
+                    {{ 'FOOTER.SLOGAN' | translate }}
                 </p>
             </div>
 
             <div class="flex items-center gap-4">
-                <a href="https://www.facebook.com/profile.php?id=61582188380371&locale=ar_AR" 
+                <a href="https://www.facebook.com/..." 
                    class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-50 text-slate-400 hover:bg-teal-50 hover:text-teal-600 transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-100">
                    <i class="fab fa-facebook-f text-sm"></i>
                 </a>
-
-                <a href="http://linkedin.com/company/112224736/..." 
+                <a href="http://linkedin.com/company/..." 
                    class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-50 text-slate-400 hover:bg-teal-50 hover:text-teal-600 transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-100">
                    <i class="fab fa-linkedin-in text-sm"></i>
                 </a>
-
-                <a href="https://www.instagram.com/tabibak.clinic.official/..." 
+                <a href="https://www.instagram.com/..." 
                    class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-50 text-slate-400 hover:bg-teal-50 hover:text-teal-600 transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-100">
                    <i class="fab fa-instagram text-sm"></i>
                 </a>
-
-                <a href="https://x.com/TabibakClinic?..." 
+                <a href="https://x.com/..." 
                    class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-50 text-slate-400 hover:bg-teal-50 hover:text-teal-600 transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-100">
                    <i class="fab fa-x-twitter text-sm"></i>
                 </a>
@@ -43,12 +40,16 @@
 
         <div class="flex flex-col md:flex-row items-center justify-between gap-4">
             <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">
-                © 2026 Tabibak. <span class="text-slate-300 font-medium lowercase">All rights reserved.</span>
+                {{ 'FOOTER.COPYRIGHT' | translate }} <span class="text-slate-300 font-medium lowercase">{{ 'FOOTER.RIGHTS' | translate }}</span>
             </span>
             
             <div class="flex items-center gap-6">
-                <a href="#" class="text-[10px] font-bold text-slate-400 hover:text-teal-600 transition-colors uppercase tracking-tight">Privacy Policy</a>
-                <a href="#" class="text-[10px] font-bold text-slate-400 hover:text-teal-600 transition-colors uppercase tracking-tight">Terms of Service</a>
+                <a href="#" class="text-[10px] font-bold text-slate-400 hover:text-teal-600 transition-colors uppercase tracking-tight">
+                    {{ 'FOOTER.PRIVACY' | translate }}
+                </a>
+                <a href="#" class="text-[10px] font-bold text-slate-400 hover:text-teal-600 transition-colors uppercase tracking-tight">
+                    {{ 'FOOTER.TERMS' | translate }}
+                </a>
             </div>
         </div>
     </div>

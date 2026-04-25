@@ -1,35 +1,62 @@
 <nav class="fixed top-6 left-0 right-0 z-[100] px-6 animate-nav-down">
   <div class="max-w-5xl mx-auto">
-    <div class="group/nav bg-white/40 backdrop-blur-md border border-white/40 shadow-[0_8px_32px_0_rgba(0,0,0,0.05)] rounded-full px-6 py-2.5 flex items-center justify-between transition-all duration-500 hover:bg-white/80 hover:shadow-teal-500/10 hover:border-teal-200/50">
-      
+    <div
+      class="group/nav bg-white/40 backdrop-blur-md border border-white/40 shadow-[0_8px_32px_0_rgba(0,0,0,0.05)] rounded-full px-6 py-2.5 flex items-center justify-between transition-all duration-500 hover:bg-white/80 hover:shadow-teal-500/10 hover:border-teal-200/50">
+
       <div class="flex items-center gap-3 cursor-pointer group/logo">
-        <div class="relative w-9 h-9 bg-teal-600 rounded-2xl flex items-center justify-center overflow-hidden shadow-lg shadow-teal-200 transition-all duration-500 group-hover/logo:rotate-[360deg] group-hover/logo:rounded-full">
+        <div
+          class="relative w-9 h-9 bg-teal-600 rounded-2xl flex items-center justify-center overflow-hidden shadow-lg shadow-teal-200 transition-all duration-500 group-hover/logo:rotate-[360deg] group-hover/logo:rounded-full">
           <i class="fas fa-plus text-white text-xs relative z-10"></i>
-          <div class="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent translate-x-[-100%] group-hover/logo:translate-x-[100%] transition-transform duration-700"></div>
+          <div
+            class="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent translate-x-[-100%] group-hover/logo:translate-x-[100%] transition-transform duration-700">
+          </div>
         </div>
-        
-        <span class="text-xl font-black text-slate-800 tracking-tighter">
-          Tabib<span class="text-teal-600 inline-block transition-transform duration-300 group-hover/logo:translate-x-1 italic">ak</span>
+
+        <span class="text-xl font-black text-slate-800 tracking-tighter flex items-center">
+          <span>{{ 'NAV.LOGO_PART1' | translate }}</span>
+
+          <span class="text-teal-600 transition-transform duration-300 group-hover/logo:translate-x-1"
+            [class.italic]="currentLang === 'ar'">
+            {{ 'NAV.LOGO_PART2' | translate }}
+          </span>
         </span>
       </div>
 
       <div class="flex items-center gap-4">
-        <div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/50 border border-white/20 shadow-inner">
+        <div
+          class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/50 border border-white/20 shadow-inner">
           <span class="relative flex h-2 w-2">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
-          <span class="text-[9px] font-black text-slate-500 uppercase tracking-widest">Active Now</span>
+          <span class="text-[9px] font-black text-slate-500 uppercase tracking-widest">
+            {{ 'NAV.STATUS' | translate }}
+          </span>
+        </div>
+        <div class="flex bg-slate-100/50 p-1 rounded-full border border-slate-200/50 backdrop-blur-sm">
+          <button type="button" (click)="changeLanguage('ar')"
+            class="cursor-pointer px-3 py-1 text-[10px] font-bold rounded-full transition-all duration-300"
+            [class.bg-teal-600]="currentLang === 'ar'" [class.text-white]="currentLang === 'ar'"
+            [class.text-slate-500]="currentLang !== 'ar'">
+            AR
+          </button>
+          <button type="button" (click)="changeLanguage('en')"
+            class="cursor-pointer px-3 py-1 text-[10px] font-bold rounded-full transition-all duration-300"
+            [class.bg-teal-600]="currentLang === 'en'" [class.text-white]="currentLang === 'en'"
+            [class.text-slate-500]="currentLang !== 'en'">
+            EN
+          </button>
         </div>
 
-        <button (click)="goToCTA()" 
+        <button (click)="goToCTA()"
           class="cursor-pointer relative group/btn bg-slate-900 text-white px-7 py-2.5 rounded-full font-bold text-xs overflow-hidden transition-all duration-300 hover:bg-teal-600 hover:shadow-[0_0_20px_rgba(20,184,166,0.4)] active:scale-95">
-          <span class="relative z-10">Get Started</span>
-          <div class="absolute top-0 -right-full w-full h-full bg-white/10 skew-x-[-20deg] group-hover/btn:right-full transition-all duration-700 ease-in-out"></div>
+          <span class="relative z-10">{{ 'NAV.CTA_BUTTON' | translate }}</span>
+          <div
+            class="absolute top-0 -right-full w-full h-full bg-white/10 skew-x-[-20deg] group-hover/btn:right-full transition-all duration-700 ease-in-out">
+          </div>
         </button>
       </div>
 
     </div>
   </div>
 </nav>
-

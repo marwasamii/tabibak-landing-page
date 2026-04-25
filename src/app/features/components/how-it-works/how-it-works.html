@@ -2,52 +2,51 @@
   <div class="max-w-5xl mx-auto text-center relative">
     
     <h2 class="text-3xl md:text-4xl font-black text-gray-900 mb-16 animate-fade-in">
-      How It <span class="text-teal-600">Works</span>
+      {{ 'HOW_IT_WORKS.TITLE_PART1' | translate }} <span class="text-teal-600">{{ 'HOW_IT_WORKS.TITLE_PART2' | translate }}</span>
     </h2>
 
     <div class="grid md:grid-cols-3 gap-8 relative">
       <div class="hidden md:block absolute top-1/4 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-teal-100 to-transparent z-0"></div>
 
       <div class="group relative bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-teal-200 transition-all duration-500 hover:shadow-xl hover:shadow-teal-50/50 z-10 animate-fade-in-up">
-        <span class="absolute top-4 right-6 text-7xl font-black text-teal-50/50 group-hover:text-teal-100 transition-colors pointer-events-none">01</span>
+        <span class="absolute top-4 right-6 rtl:right-auto rtl:left-6 text-7xl font-black text-teal-50/50 group-hover:text-teal-100 transition-colors pointer-events-none">01</span>
         
         <div class="relative w-14 h-14 bg-teal-600 rounded-2xl flex items-center justify-center shadow-lg shadow-teal-200 group-hover:rotate-12 transition-transform duration-300">
           <i class="fas fa-search text-white text-xl"></i>
         </div>
 
-        <h3 class="mt-8 font-bold text-xl text-gray-800">Search Doctor</h3>
+        <h3 class="mt-8 font-bold text-xl text-gray-800">{{ 'HOW_IT_WORKS.STEP1_TITLE' | translate }}</h3>
         <p class="text-gray-500 text-sm mt-3 leading-relaxed">
-          Find top-rated specialists based on specialty and location.
+          {{ 'HOW_IT_WORKS.STEP1_DESC' | translate }}
         </p>
       </div>
 
       <div class="group relative bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-teal-200 transition-all duration-500 hover:shadow-xl hover:shadow-teal-50/50 z-10 animate-fade-in-up delay-200">
-        <span class="absolute top-4 right-6 text-7xl font-black text-teal-50/50 group-hover:text-teal-100 transition-colors pointer-events-none">02</span>
+        <span class="absolute top-4 right-6 rtl:right-auto rtl:left-6 text-7xl font-black text-teal-50/50 group-hover:text-teal-100 transition-colors pointer-events-none">02</span>
         
         <div class="relative w-14 h-14 bg-teal-600 rounded-2xl flex items-center justify-center shadow-lg shadow-teal-200 group-hover:rotate-12 transition-transform duration-300">
           <i class="fas fa-calendar-alt text-white text-xl"></i>
         </div>
 
-        <h3 class="mt-8 font-bold text-xl text-gray-800">Book Appointment</h3>
+        <h3 class="mt-8 font-bold text-xl text-gray-800">{{ 'HOW_IT_WORKS.STEP2_TITLE' | translate }}</h3>
         <p class="text-gray-500 text-sm mt-3 leading-relaxed">
-          Choose a suitable time and confirm your booking instantly.
+          {{ 'HOW_IT_WORKS.STEP2_DESC' | translate }}
         </p>
       </div>
 
       <div class="group relative bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-teal-200 transition-all duration-500 hover:shadow-xl hover:shadow-teal-50/50 z-10 animate-fade-in-up delay-400">
-        <span class="absolute top-4 right-6 text-7xl font-black text-teal-50/50 group-hover:text-teal-100 transition-colors pointer-events-none">03</span>
+        <span class="absolute top-4 right-6 rtl:right-auto rtl:left-6 text-7xl font-black text-teal-50/50 group-hover:text-teal-100 transition-colors pointer-events-none">03</span>
         
         <div class="relative w-14 h-14 bg-teal-600 rounded-2xl flex items-center justify-center shadow-lg shadow-teal-200 group-hover:rotate-12 transition-transform duration-300">
           <i class="fas fa-hospital-user text-white text-xl"></i>
         </div>
 
-        <h3 class="mt-8 font-bold text-xl text-gray-800">Visit Doctor</h3>
+        <h3 class="mt-8 font-bold text-xl text-gray-800">{{ 'HOW_IT_WORKS.STEP3_TITLE' | translate }}</h3>
         <p class="text-gray-500 text-sm mt-3 leading-relaxed">
-          Attend your appointment easily and on time.
+          {{ 'HOW_IT_WORKS.STEP3_DESC' | translate }}
         </p>
       </div>
 
     </div>
   </div>
 </section>
-

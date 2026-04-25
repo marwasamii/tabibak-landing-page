@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ScrollService } from '../../../core/services/scroll';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-hero',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })

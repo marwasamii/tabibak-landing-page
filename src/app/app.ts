@@ -15,4 +15,6 @@ import { HowItWorks } from './features/components/how-it-works/how-it-works';
 })
 export class App {
   protected readonly title = signal('tabibak-landing');
+  
+  
 }

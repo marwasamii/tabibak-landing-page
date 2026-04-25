@@ -1,0 +1,65 @@
+{
+  "NAV": {
+    "LOGO_PART1": "Tabib",
+    "LOGO_PART2": "ak",
+    "STATUS": "Active Now",
+    "CTA_BUTTON": "Get Started"
+  },
+  "CHALLENGE": {
+    "BADGE": "The Challenge",
+    "TITLE_MAIN": "Why Patients",
+    "TITLE_HIGHLIGHT": "Struggle",
+    "DESCRIPTION": "Healthcare booking is still fragmented and slow. We’re here to bridge the gap.",
+    "SEARCH_TITLE": "Fragmented Search",
+    "SEARCH_DESC": "Hard to find the right specialist",
+    "TIME_TITLE": "Time Inefficiency",
+    "TIME_DESC": "Long waiting queues and delays",
+    "STATUS_LABEL": "Status",
+    "STATUS_VALUE": "Complex Flow",
+    "FRUSTRATION_RATE": "Frustration Rate"
+  },
+  "HERO": {
+    "BADGE": "✨ Your Health, Our Priority",
+    "TITLE_PART1": "Book Your Doctor in",
+    "TITLE_PART2": "Less Than a Minute",
+    "DESCRIPTION": "Tabibak connects you with the best doctors in your city quickly and easily. Experience the future of healthcare booking today.",
+    "BTN_START": "Get Started",
+    "BTN_LEARN": "Learn More"
+  },
+  "FEATURES": {
+    "TITLE_PART1": "Feat",
+    "TITLE_PART2": "ures",
+    "FEAT1_TITLE": "Easy Booking",
+    "FEAT1_DESC": "Book your professional doctor in just a few seconds.",
+    "FEAT2_TITLE": "Medical Records",
+    "FEAT2_DESC": "Securely store and access your medical history anytime.",
+    "FEAT3_TITLE": "Nearby Doctors",
+    "FEAT3_DESC": "Locate the top-rated specialists in your area instantly."
+  },
+  "HOW_IT_WORKS": {
+    "TITLE_PART1": "How It",
+    "TITLE_PART2": "Works",
+    "STEP1_TITLE": "Search Doctor",
+    "STEP1_DESC": "Find top-rated specialists based on specialty and location.",
+    "STEP2_TITLE": "Book Appointment",
+    "STEP2_DESC": "Choose a suitable time and confirm your booking instantly.",
+    "STEP3_TITLE": "Visit Doctor",
+    "STEP3_DESC": "Attend your appointment easily and on time."
+  },
+  "CTA": {
+    "TITLE": "Start Using Tabibak Today",
+    "DESCRIPTION": "Join now and make healthcare booking simple and fast.",
+    "EMAIL_PLACEHOLDER": "Enter Your Email...",
+    "BUTTON_TEXT": "Join Now",
+    "FOOTER_TEXT": "🔒 Secure & Fast Registration"
+  },
+  "FOOTER": {
+    "SLOGAN": "Revolutionizing Healthcare Booking",
+    "COPYRIGHT": "© 2026 Tabibak.",
+    "RIGHTS": "All rights reserved.",
+    "PRIVACY": "Privacy Policy",
+    "TERMS": "Terms of Service"
+  }
+}
+
+  
